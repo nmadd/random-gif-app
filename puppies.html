@@ -1,0 +1,25 @@
+<body>
+	<h3>Choose a theme:</h3>
+	<a href="/">Random</a><br>
+    <a href="nineties">90s</a><br>
+    <a href="puppies">Puppies</a><br>
+    <br><br><br>
+    <button id="gif-button">Show a New Puppy GIF!</button>
+    <br>
+    <br>
+    <img id="gif-display" src="" alt="">
+</body>
+
+<script>
+	var gifLibrary = ['https://media3.giphy.com/media/NmGbJwLl7Y4lG/200.gif','https://media3.giphy.com/media/Wk93QyOjP0hXy/200.gif','https://media4.giphy.com/media/XuOOXWY29Y4z6/200.gif','https://media1.giphy.com/media/3o7ZeST3gz4Nyev6Ny/200.gif', 'https://media3.giphy.com/media/ayOJoGkgS80AE/200.gif', 'https://media2.giphy.com/media/a7aDhYwt0qEjS/200.gif', 'https://media0.giphy.com/media/tP3Tu61F2RBZe/200.gif', 'https://media2.giphy.com/media/4anSKzI3IoSgE/200.gif', 'https://media4.giphy.com/media/3o6UBo8U2iHUG5mszS/200.gif', 'https://media1.giphy.com/media/irTuv1L1T34TC/200.gif', 'https://media1.giphy.com/media/aPbscctA93Cda/200.gif'];
+
+	document.getElementById('gif-button').addEventListener('click', function(){
+		document.getElementById('gif-display').src = gifLibrary[Math.floor(Math.random() * gifLibrary.length)];
+	});
+</script>
+
+<style>
+	* {
+	    text-align: center;
+	}
+</style>
