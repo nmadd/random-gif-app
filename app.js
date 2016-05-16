@@ -1,10 +1,19 @@
-//Build out the Express portion of the app!
+//Write your code below. Build out the Express portion of the app!
+//Step 1: npm init & npm install express, then import it below using the 'require' keyword. 
 
-//Step 1: Import in express using the 'require' keyword
+
 
 //Step 2: Create routes to send back the correct view for each url (remember to use '__dirname' in front of your file path)
 
-//Step 3: configure the app to listen on port 3000
+
+
+//Step 3: configure the app to listen on port 3000 and test it in your browser by going to http://localhost:3000/
+
+
+
+
+
+
 
 //BONUS 1: Add additional themes, and a new routes and views for each new theme
 
